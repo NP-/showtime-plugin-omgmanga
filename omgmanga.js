@@ -1,9 +1,11 @@
 /**
- * OMG Manga plugin for showtime version 0.1  by NP
+ * OMG Manga plugin for showtime version 0.23  by NP
  *
  *  Copyright (C) 2011 NP
  * 
  *  ChangeLog:
+ *  0.23
+ *  minor fixs
  *  0.22
  *  Minor fix in chapter indexing
  *  0.21
@@ -42,11 +44,11 @@
   
   var settings = plugin.createSettings("OMG Manga",
 					  plugin.path + "omgmanga.png",
-					 "OMG Manga Reader");
+					 "Manga Reader");
 
   settings.createInfo("info",
 			     plugin.path + "omgmanga.png",
-			     "OMG Manga Reader \n"+
+			     "Manga Reader \n"+
 			     "Copyrighted Limited www.OMGmanga.com - Some Rights Reserved.\n"+
 				 "Plugin developed by NP \n");
 
